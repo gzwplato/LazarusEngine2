@@ -6,13 +6,11 @@
 #include "GameObject.h"
 #include "PlayerCharacter.h"
 #include "IEngineCore.h"
-#include "wander.h"
 
 #include "Collision.h" // Used for collision between objects
 
 #include <string>
 
-#include "wander.h"
 
 
 //class Model;
@@ -34,7 +32,7 @@ public:
 
 	void render(IEngineCore* engineCore);
 	
-	wander * m_Wander;
+	
 
 	void loadLevel(std::string levelFile);
 	bool loadLevelJSON(std::string levelJSONFile);
